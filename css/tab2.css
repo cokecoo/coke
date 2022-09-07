@@ -1,0 +1,383 @@
+
+/* 协会概况分割线 */
+#Tab{
+	font-size: 20px;
+	font-family: "宋体";
+	display: flex;
+	flex-direction: row;
+	color: gray;
+	background: #f8f4f4;
+	height: 600px;
+	min-width: 1520px;
+}
+.menubox{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 300px;
+	position: static;
+}
+.menubox ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox ul a:visited{
+	color:gray;
+}
+.menubox_name{
+	font-size: 12px;
+}
+.menubox_title{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.contentbox{
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: #fff;
+	width: 890px;
+	margin-bottom: 30px;
+}
+/* 政策法规分割线 */
+.menubox_title_2{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_2{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 125px;
+	position: static;
+}
+.menubox_2 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_2 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_2 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_2 ul a:visited{
+	color:gray;
+}
+/* 政策法规信息列表 */
+.con_menu_display_2{
+	font-family: "宋体";
+	font-size: 17px;
+	list-style: none;
+	margin-left: 23px;
+	margin-top: 10px;
+	line-height: 25px;
+	letter-spacing: -1px;
+}
+.con_menu_display_2 a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+.con_menu_display_2 a:visited{
+	color:black;
+}
+.con_menu_display_2 a:hover{
+	color: #147AB8;
+}
+.con_menu_display_2_date{
+	float: right;
+	margin-right: 10px;
+	line-height: 25px;
+	
+	
+}
+
+/* 新闻资讯分割线 */
+.menubox_title_3{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_3{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 210px;
+	position: static;
+}
+.menubox_3 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_3 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_3 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_3 ul a:visited{
+	color:gray;
+}
+/* 智慧职教分割线 */
+.menubox_title_4{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_4{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 210px;
+	position: static;
+}
+.menubox_4 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_4 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_4 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_4 ul a:visited{
+	color:gray;
+}
+/* 职教风采分割线 */
+.menubox_title_5{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_5{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 250px;
+	position: static;
+}
+.menubox_5 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_5 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_5 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_5 ul a:visited{
+	color:gray;
+}
+/* 职教管理分割线 */
+.menubox_title_6{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_6{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 210px;
+	position: static;
+}
+.menubox_6 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_6 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_6 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_6 ul a:visited{
+	color:gray;
+}
+/* 会员服务分割线 */
+.menubox_title_7{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_7{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 300px;
+	position: static;
+}
+.menubox_7 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_7 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_7 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_7 ul a:visited{
+	color:gray;
+}
+/* 证书查询分割线 */
+.menubox_title_8{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_8{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 210px;
+	position: static;
+}
+.menubox_8 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_8 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_8 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_8 ul a:visited{
+	color:gray;
+}
+/* 联系我们分割线 */
+.menubox_title_9{
+	border-left: 7px solid #0f95fa;
+	border-bottom: 15px solid #e3e3e3;
+	border-left: 12px solid #0f95fa;
+	font-size: 25px;
+	color: #114c90;
+	padding: 0px 6px;
+	font-weight: 800;
+}
+.menubox_9{
+	margin-left: 180px;
+	margin-top: 50px;
+	background-color: #fff;
+	min-width: 200px;
+	height: 150px;
+	position: static;
+}
+.menubox_9 ul{
+	list-style: none;
+	line-height: 45px;
+	
+}
+.menubox_9 ul li.hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+	background:#147AB8;
+	color: #fff;
+}
+.menubox_9 ul  a{
+	text-decoration: none;
+	display: block;
+	color: gray;
+}
+.menubox_9 ul a:visited{
+	color:gray;
+}

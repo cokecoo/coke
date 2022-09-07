@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <meta charset="utf-8" /> -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>新闻资讯</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" href="../css/tab2.css">
+		<link rel="icon" href="../img/favicon.ico" type="image/x-icon"/>
+		<!-- <link rel="stylesheet" href="css/style.css"> -->
+		<!-- 轮播图分割线样式及js -->
+		<script>
+		
+		   function setTab(name,cursel,n){
+		   for(i=1;i<=n;i++){
+		   var menu=document.getElementById(name+i);
+		   var con=document.getElementById("con_"+name+"_"+i);
+		   menu.className=i==cursel?"hover":"";
+		   menu.style.color=i==cursel?"white":"gray"
+		   con.style.display=i==cursel?"block":"none";
+		   }
+		   }
+
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- <img src="img/logo2.png" > -->
+			<div class="head">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/logo.png" style="max-height: 82px;margin-right: 15px;" class="img"></a>
+					<!-- <a href="#"> --><img src="../img/logo-name5.jpg" class="logo_name" width="70%" height="90%" ><!-- </a> -->
+				</div>
+				<div class="search">
+					<form method="get" class="search_btn">
+						<input type="text" name="keyword" class="inputing" width="50px"/>
+						<button type="submit">搜索</button>
+					</form>
+				</div>
+			</div>
+			<div class="daohang">
+				<ul class="nav">
+					<li>
+					<a href="../index.html">首页</a>
+					</li>
+					<li>
+					<a href="xhgk.html">协会概况</a>
+					   <ul class="two">
+						<li><a href="javascript:;" onclick="gotoxhgk(1)">总会介绍</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(2)">专委会介绍</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(3)">我会章程</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(4)">组织机构</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(5)">领导组成</a></li>
+					   </ul>
+					</li>
+					<li>
+						<a href="zcfg.html">政策法规</a>
+					</li>
+					<li>
+					<a href="xwzx.html">新闻资讯</a>
+					   <ul class="two">
+						<li><a href="javascript:;" onclick="setTab('menu',1,3)">协会资讯</a></li>
+						<li><a href="javascript:;" onclick="setTab('menu',2,3)">专委会资讯</a></li>
+						<li><a href="javascript:;" onclick="setTab('menu',3,3)">行业资讯</a></li>
+					   </ul>
+					</li>
+					<li><a href="zhzj.html">智慧职教</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozhzj(1)">专家智库</a></li>
+						<li><a href="javascript:;" onclick="gotozhzj(2)">会议培训</a></li>
+						<li><a href="javascript:;" onclick="gotozhzj(3)">竞赛展演</a></li>
+					    </ul>
+					</li>
+					<li><a href="zjfc.html">教职风采</a>
+					    <ul class="two">
+						<li><a href="javascript:;" onclick="gotozjfc(1)">职校风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(2)">职师风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(3)">职生风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(4)">职企风采</a></li>
+					   </ul>
+					</li>
+					<li><a href="zjgl.html">职教管理</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozjgl(1)">学术交流</a></li>
+						<li><a href="javascript:;" onclick="gotozjgl(2)">考察交流</a></li>
+						<li><a href="javascript:;" onclick="gotozjgl(3)">国外交流</a></li>
+					    </ul>
+					</li>
+					<li><a href="hyfw.html">会员服务</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotohyfw(1)">入会说明</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(2)">会费说明</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(3)">会员公约</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(4)">会员查询</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(5)">入会申请</a></li>
+					    </ul>
+					</li>
+					<li><a href="zscx.html">证书查询</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozscx(1)">证书类型</a></li>
+						<li><a href="javascript:;" onclick="gotozscx(2)">姓名</a></li>
+						<li><a href="javascript:;" onclick="gotozscx(3)">证书编号</a></li>
+					    </ul>
+					</li>
+					<li><a href="lxwm.html">联系我们</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotolxwm(1)">联系我们</a></li>
+						<li><a href="javascript:;" onclick="gotolxwm(2)">公众号</a></li>
+					    </ul>
+					</li>
+				</ul>
+			</div>
+			<!-- tab选项卡分割线 -->
+			<div id="Tab">
+				<div class="menubox_3">
+					<ul>
+						<li class="menubox_title_3">新闻资讯</li>
+						<a href="#"><li id="menu1" onclick="setTab('menu',1,3)" class="hover"><span class="menubox_name">&nbsp;●&nbsp;</span>协会资讯</li></a>
+						<a href="#"><li id="menu2" onclick="setTab('menu',2,3)"><span class="menubox_name">&nbsp;●&nbsp;</span>专委会资讯</li></a>
+						<a href="#"><li id="menu3" onclick="setTab('menu',3,3)"><span class="menubox_name">&nbsp;●&nbsp;</span>行业资讯</li></a>
+					</ul>
+				</div>
+				<div class="contentbox">
+					<div id="con_menu_1" class="hover">
+						这是页面111111111111111111111111111111
+					</div>
+					<div id="con_menu_2" style="display:none">
+						这是页面22222222222222222222222
+					</div>
+					<div id="con_menu_3" style="display:none">
+						这是页面3333333333333
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			<!-- 页脚分割线 -->
+			<div class="footer">
+				
+				<div class="footer_line">
+					<hr>
+				</div>
+				<div class="footer_2">
+					<div class="link">
+						<span class="link_title">友情<br>链接&nbsp;&nbsp;&nbsp;</span>
+						<div class="choose1">
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >教育行政部门</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >职教院校</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >教育资源</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >其他链接</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<!-- <span><a href="#">中国智慧工程研究会</a>&nbsp;|</span>
+					    <span><a href="http://www.zhzjs.org.cn/">中华职教社</a>&nbsp;</span> -->
+						
+					</div>
+					<!-- <div class="sx">
+						
+					</div> -->
+				</div>
+				<div class="reserved">
+					<br>
+					<span >版权所有：中国智慧工程研究会职业教育专业委员会</span><br>
+					<span >Copyright@2022·All Rights Reserved</span>
+					<br>
+				</div>
+			</div>
+		<script src="js/tab-12.3.5.js"></script>
+		<script src="../js/goto.js"></script>
+		<script type="text/javascript">
+			var currentActiveRow;//当前选中行
+			//改变选中行的颜色
+			function changeActiveRow(obj) {
+			    if (currentActiveRow) {
+			        currentActiveRow.style.color = "";
+			    }
+			    currentActiveRow = obj;
+			    currentActiveRow.style.color = "#0000cd";
+				var url = window.location.href;
+				var id = url.substring( url.lastIndexOf("#")+1);
+				document.getElementById(id).scrollIntoView(true);
+				}
+		
+		</script>
+		<script>
+		// 获取url传参数据
+		var GetRequest=function() {
+			var url = location.search; //获取url中"?"符后的字串 
+			var theRequest = new Object();
+			if (url.indexOf("?") != -1) {
+				var str = url.substr(1);
+				strs = str.split("&");
+				for (var i = 0; i < strs.length; i++) {
+					theRequest[strs[i].split("=")[0]] =         
+					unescape(strs[i].split("=")[1]);
+				 }
+			}
+			return theRequest;
+		}
+		var Requests = new Object();
+		Requests = GetRequest(); //获取结果
+		let option = Requests.option
+		// console.log(Requests) //获取所有参数
+		// console.log(Requests.option) //获取单个参数
+		
+		//判断option是否有参数，没有参数指向第一个按钮
+		if(option == undefined){
+			setTab('menu',1,3)
+		}else{
+			setTab('menu',option,3)
+		}
+		
+		   function setTab(name,cursel,n){
+			   // console.log('11111')
+			   for(i=1;i<=n;i++){
+				   var menu=document.getElementById(name+i);
+				   var con=document.getElementById("con_"+name+"_"+i);
+				   menu.className=i==cursel?"hover":"";
+				   menu.style.color=i==cursel?"white":"gray"
+				   con.style.display=i==cursel?"block":"none";
+				   // console.log(menu)
+			   }
+		   }
+		// function gotoxhgk(id){
+		// 	window.open("xhgk.html?option="+id);
+		// }
+		</script>
+		
+	</body>
+</html>

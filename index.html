@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <meta charset="utf-8" /> -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>中国智慧工程研究会职业教育专业委员会</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/tab.css">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<!-- <link rel="stylesheet" href="css/style.css"> -->
+		<!-- 轮播图分割线样式及js -->
+	</head>
+	<body>
+		<div class="container">
+			<!-- <img src="img/logo2.png" > -->
+			<div class="head">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png" style="max-height: 82px;margin-right: 15px;" class="img"></a>
+					<!-- <a href="#"> --><img src="img/logo-name5.jpg" class="logo_name" width="70%" height="90%" ><!-- </a> -->
+				</div>
+				<div class="search">
+					<form method="get" class="search_btn">
+						<input type="text" name="keyword" class="inputing" width="50px"/>
+						<button type="submit">搜索</button>
+					</form>
+				</div>
+			</div>
+			<div class="daohang">
+				<ul class="nav">
+					<li>
+					<a href="index.html">首页</a>
+					</li>
+					<li>
+					<a href="javascript:;" onclick="gotoxhgk(1)">协会概况</a>
+					   <ul class="two">
+						<li><a href="javascript:;" onclick="gotoxhgk(1)">总会介绍</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(2)">专委会介绍</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(3)">我会章程</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(4)">组织机构</a></li>
+						<li><a href="javascript:;" onclick="gotoxhgk(5)">领导组成</a></li>
+					   </ul>
+					</li>
+					<li>
+						<a href="二级/zcfg.html">政策法规</a>
+					</li>
+					<li>
+					<a href="javascript:;" onclick="gotoxwzx(1)">新闻资讯</a>
+					   <ul class="two">
+						<li><a href="javascript:;" onclick="gotoxwzx(1)">协会资讯</a></li>
+						<li><a href="javascript:;" onclick="gotoxwzx(2)">专委会资讯</a></li>
+						<li><a href="javascript:;" onclick="gotoxwzx(3)">行业资讯</a></li>
+					   </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotozhzj(1)">智慧职教</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozhzj(1)">专家智库</a></li>
+						<li><a href="javascript:;" onclick="gotozhzj(2)">会议培训</a></li>
+						<li><a href="javascript:;" onclick="gotozhzj(3)">竞赛展演</a></li>
+				        </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotozjfc(1)">教职风采</a>
+					    <ul class="two">
+						<li><a href="javascript:;" onclick="gotozjfc(1)">职校风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(2)">职师风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(3)">职生风采</a></li>
+						<li><a href="javascript:;" onclick="gotozjfc(4)">职企风采</a></li>
+				       </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotozjgl(1)">职教管理</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozjgl(1)">学术交流</a></li>
+						<li><a href="javascript:;" onclick="gotozjgl(2)">考察交流</a></li>
+						<li><a href="javascript:;" onclick="gotozjgl(3)">国外交流</a></li>
+					    </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotohyfw(1)">会员服务</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotohyfw(1)">入会说明</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(2)">会费说明</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(3)">会员公约</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(4)">会员查询</a></li>
+						<li><a href="javascript:;" onclick="gotohyfw(5)">入会申请</a></li>
+					    </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotozscx(1)">证书查询</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotozscx(1)">证书类型</a></li>
+						<li><a href="javascript:;" onclick="gotozscx(2)">姓名</a></li>
+						<li><a href="javascript:;" onclick="gotozscx(3)">证书编号</a></li>
+					    </ul>
+					</li>
+					<li><a href="javascript:;" onclick="gotolxwm(1)">联系我们</a>
+						<ul class="two">
+						<li><a href="javascript:;" onclick="gotolxwm(1)">联系我们</a></li>
+						<li><a href="javascript:;" onclick="gotolxwm(2)">公众号</a></li>
+					    </ul>
+					</li>
+				</ul>
+			</div>
+			<div class="photo">
+				<!-- 轮播图分割线 -->
+				<div class="outer">
+				    <div class="inner">
+				      <img src="img/banner1.jpg" alt="" class="img12">
+				      <img src="img/banner2.jpg" alt="" class="img12">
+				      <img src="img/banner3.jpg" alt="" class="img12">
+				    </div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="introduce">
+					<div class="area_1">
+						<div class="font"><span id="left">专委会</span><span id="right">简介</span></div>
+					    <!-- <div class="name_1"><img src="img/introduce.png"  class="name_img" ></div> -->
+					    <div class="more"><a href="https://www.baidu.com/">MORE</a></div>
+				    </div>
+					<!-- <hr color="gray"> -->
+					<div class="passage_1">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专委会是指机构的专业委员会或者专门委员会的简称，具有工作领域的专业性特点。
+						功能和作用：1、组织协调。专委会上联常委会组成人员，中联各相关对口部门和单位，
+						对下直接接触各界别委员。因此，发挥承上启下的桥梁和纽带作用，搞好组织、协调和服务，
+						强化所联系界别委员的主体功能，为委员履职搭建平台，最大限度地增强委员的责任意识，
+						激发委员的工作潜能，是专委会的首要职责。2、建言献策。按照中心工作和总体部署，
+						紧紧围绕重大问题和人民群众普遍关心的热点、难点、焦点问题，建有用之言、献务实之策，
+						为决策提供依据。</p>
+					</div>
+				</div>
+				<div class="kong1"></div>
+				<div class="notice">
+					<div class="area_2">
+						<h1 class="notice_inner">通知公告</h1>
+						<div class="more2"><a href="https://www.baidu.com/">MORE</a></div>
+					</div>
+					    <!-- <hr color="grey" > -->
+					<ul class="passage" type="circle">
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+						<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会</a><span class="date">2022-07-22</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="expand">
+				<div class="expand_1">
+					<span class="expand_text1">智慧职教</span>
+				</div>
+				<div class="kong2"></div>
+				<div class="expand_2">
+					<span class="expand_text2">学术交流</span>
+				</div>
+			</div>
+			
+			<!-- tab栏分割线 -->
+			<div class="tabdisplay">
+				<div class="tabdisplay_1">
+					<a href="#div1" class="tab_name" onfocus="changeActiveRow(this)"><span class="tab_name_text">政策法规</span></a>
+				    <a href="#div2" class="tab_name2" onfocus="changeActiveRow(this)"><span class="tab_name_text">学术交流</span></a>
+					<!-- <hr> -->
+					<div class="box">
+					  <div class="one" id="div1">
+						  <ul class="passage1" type="circle">
+							  <br>
+						  	<li><a href="#">如何保障职业教育与普通教育同等重要</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">全国职业教育大会释放了哪些信号？</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">职业教育法（修订草案）征求意见 截止2021年7月9日</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的政策法规4</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的政策法规5</a><span class="date">2022-07-22</span></li>
+						  </ul>
+					  </div>
+					  <div class="two" id="div2">
+						  <ul class="passage2" type="circle">
+							  <br>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的学术交流1</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的学术交流2</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的学术交流3</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的学术交流4</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的学术交流5</a><span class="date">2022-07-22</span></li>
+						  </ul>
+					  </div>
+					</div>
+				</div>
+				<div class="kong3"></div>
+				<div class="tabdisplay_2">
+					<a href="#div3" class="tab_name" onfocus="changeActiveRow(this)"><span class="tab_name_text">政策法规</span></a>
+					<a href="#div4" class="tab_name2" onfocus="changeActiveRow(this)"><span class="tab_name_text">学会简报</span></a>
+					<!-- <hr> -->
+					<div class="box">
+					  <div class="three" id="div3">
+						  <ul class="passage3" type="circle">
+							  <br>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的重点工作1</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的重点工作2</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的重点工作3</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的重点工作4</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">2022年中国智慧工程研究会职业教育专业委员会的重点工作5</a><span class="date">2022-07-22</span></li>
+						  </ul>
+					  </div>
+					  <div class="four" id="div4">
+						  <ul class="passage4" type="circle">
+							  <br>
+						  	<li><a href="#">中国智慧工程研究会职业教育专业委员会的学会简报第1期</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">中国智慧工程研究会职业教育专业委员会的学会简报第2期</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">中国智慧工程研究会职业教育专业委员会的学会简报第3期</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">中国智慧工程研究会职业教育专业委员会的学会简报第4期</a><span class="date">2022-07-22</span></li>
+						  	<li><a href="#">中国智慧工程研究会职业教育专业委员会的学会简报第5期</a><span class="date">2022-07-22</span></li>
+						  </ul>
+					  </div>
+					</div>
+				</div>
+				   
+			</div>
+			
+			<div class="footer">
+				<div class="footer_1">
+					<br>
+				</div>
+				<div class="footer_line">
+					<hr>
+				</div>
+				<div class="footer_2">
+					<div class="link">
+						<span class="link_title">友情<br>链接&nbsp;&nbsp;&nbsp;</span>
+						<div class="choose1">
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >教育行政部门</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >职教院校</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >教育资源</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<select class="yqlj_xl" onchange="window.open(this.value)">
+								<option class="yqlj" >其他链接</option>
+								<option value="http://www.chinawea.org.cn/">中国智慧工程研究会</option>
+								<option value="http://www.zhzjs.org.cn/">中华职教社</option>
+							</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<!-- <span><a href="#">中国智慧工程研究会</a>&nbsp;|</span>
+					    <span><a href="http://www.zhzjs.org.cn/">中华职教社</a>&nbsp;</span> -->
+						
+					</div>
+					<!-- <div class="sx">
+						
+					</div> -->
+				</div>
+				<div class="reserved">
+					<br>
+					<span >版权所有：中国智慧工程研究会职业教育专业委员会</span><br>
+					<span >Copyright@2022·All Rights Reserved</span>
+					<br>
+				</div>
+			</div>
+		<script src="js/tab-12.3.5.js"></script>
+		<script type="text/javascript">
+			var currentActiveRow;//当前选中行
+			//改变选中行的颜色
+			function changeActiveRow(obj) {
+			    if (currentActiveRow) {
+			        currentActiveRow.style.color = "";
+			    }
+			    currentActiveRow = obj;
+			    currentActiveRow.style.color = "#0000cd";
+				var url = window.location.href;
+				
+				var id = url.substring( url.lastIndexOf("#")+1);
+				
+				document.getElementById(id).scrollIntoView(true);
+			}
+			function gotoxhgk(id){
+				window.open("二级/xhgk.html?option="+id);
+			}
+			function gotoxwzx(id){
+				window.open("二级/xwzx.html?option="+id);
+			}
+			function gotozhzj(id){
+				window.open("二级/zhzj.html?option="+id);
+			}
+			function gotozjfc(id){
+				window.open("二级/zjfc.html?option="+id);
+			}
+			function gotozjgl(id){
+				window.open("二级/zjgl.html?option="+id);
+			}
+			function gotohyfw(id){
+				window.open("二级/hyfw.html?option="+id);
+			}
+			function gotozscx(id){
+				window.open("二级/zscx.html?option="+id);
+			}
+			function gotolxwm(id){
+				window.open("二级/lxwm.html?option="+id);
+			}
+		</script>
+	</body>
+</html>
